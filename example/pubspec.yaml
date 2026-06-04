@@ -1,0 +1,21 @@
+name: multistep_progressbar_example
+description: A minimal example app demonstrating the multistep_progressbar package.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  multistep_progressbar:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
