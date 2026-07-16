@@ -31,3 +31,6 @@ migrate_working_dir/
 build/
 
 .agent-workspace
+
+# FVM Version Cache
+.fvm/
